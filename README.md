@@ -1,0 +1,2 @@
+# CalendarApp
+A calendar widget is the most important component for events-related websites. It helps users to see schedule or event information for a specific day or date. Besides this, a calendar is also used in the date picker, event scheduler, or general-purpose calendar widget projects. Basically, this calendar widget doesn’t require a library or plugin as it’s purely written in JavaScript. Anyhow, it uses Font Awesome CSS for calendar navigation keys.

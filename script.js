@@ -8,10 +8,10 @@ renderCalendar();
 function renderCalendar() {
     const prevLastDay = new Date(date.getFullYear(), date.getMonth(), 0).getDate();
     const totalMonthDay = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate();
-    const startWeekDay = new Date(date.getFullYear(), date.getMonth(), 1).getDay();
+    const startWeekDay = new Date(date.getFullYear(), date.getMonth(), +1).getDay();
     calendarDays.innerHTML = "";
-    let totalCalendarDay = 6 * 7;
-    for (let i = 0; i < totalCalendarDay; i++) {
+    let totalCalendarDay = 5 * 7;
+    for (let i = 1; i < totalCalendarDay; i++) {
         let day = i - startWeekDay;
         if (i <= startWeekDay) {
             // adding previous month days

@@ -1,2 +1,3 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b81b3a51-5f39-4ee2-bbc1-e2b8d8003cfc/deploy-status)](https://app.netlify.com/sites/ephemeral-lily-1a59a2/deploys)
 # CalendarApp
 A calendar widget is the most important component for events-related websites. It helps users to see schedule or event information for a specific day or date. Besides this, a calendar is also used in the date picker, event scheduler, or general-purpose calendar widget projects. Basically, this calendar widget doesn’t require a library or plugin as it’s purely written in JavaScript. Anyhow, it uses Font Awesome CSS for calendar navigation keys.
